@@ -14,6 +14,7 @@ export type CampusIdentifier =
   | 'malaga'
   | 'mulhouse'
   | 'paris'
+  | 'porto'
   | 'saoPaulo'
   | 'seoul'
   | 'tokyo'

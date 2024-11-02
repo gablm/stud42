@@ -11,6 +11,7 @@ import { Madrid } from './campus/madrid';
 import { Malaga } from './campus/malaga';
 import { Mulhouse } from './campus/mulhouse';
 import { Paris } from './campus/paris';
+import { Porto } from './campus/porto';
 import { SaoPaulo } from './campus/saoPaulo';
 import { Seoul } from './campus/seoul';
 import { Tokyo } from './campus/tokyo';
@@ -34,6 +35,7 @@ export const Campuses: Record<CampusIdentifier, ICampus> = {
   malaga: new Malaga(),
   mulhouse: new Mulhouse(),
   paris: new Paris(),
+  porto: new Porto(),
   saoPaulo: new SaoPaulo(),
   seoul: new Seoul(),
   tokyo: new Tokyo(),
